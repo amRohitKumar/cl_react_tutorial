@@ -1,8 +1,11 @@
+import { Header } from './components';
 import './App.css';
 
 function App() {
   return (
-    <div>TO DO PROJECT</div>
+    <div className='home-component'>
+      <Header />
+    </div>
   );
 }
 
